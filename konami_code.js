@@ -6,7 +6,7 @@ function init() {
     var trueCount = 0;
     var position = 0;
     var keydownCount = 0;
-    if (e.detail === code[position]) {
+    if (parseInt(e.detail) === code[position]) {
       keydownCount++
       trueCount++
       position++
